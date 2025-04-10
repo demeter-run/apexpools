@@ -6,7 +6,7 @@ on:
     branches:
       - "main"
     paths:
-      - ".github/workflows/instance.yml"
+      - ".github/workflows/build.yml"
       - "metadata/*"
 
 jobs:
