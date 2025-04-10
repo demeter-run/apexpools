@@ -1,0 +1,34 @@
+{
+  "info": {
+    "url_png_icon_64x64": "https://raw.githubusercontent.com/demeter-run/apexpools/main/txpipe-logo-sq-64x64.png",
+    "url_png_logo": "https://raw.githubusercontent.com/demeter-run/apexpools/main/txpipe-logo-sq-64x64.png",
+    "location": "",
+    "verification_code ": "",
+    "social": {
+      "twitter_handle": "txpipe_tools",
+      "telegram_handle": "",
+      "facebook_handle": "",
+      "youtube_handle": "txpipe1745",
+      "twitch_handle": "",
+      "discord_handle": "",
+      "github_handle": "txpipe"
+    },
+    "company": {
+      "name": "Tx pipe",
+      "addr": "",
+      "city": "",
+      "country": "",
+      "company_id": "",
+      "vat_id": ""
+    },
+    "about": {
+      "me": "",
+      "server": "",
+      "company": ""
+    },
+    "my-pool-ids": {
+      "0": " ",
+      "1": ""
+    }
+  }
+}
