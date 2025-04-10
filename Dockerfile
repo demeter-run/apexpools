@@ -6,10 +6,10 @@ RUN mkdir -p /usr/share/nginx/html/mainnet
 RUN mkdir -p /usr/share/nginx/html/testnet
 
 # Copy the static files into the appropriate directories
-COPY mainnet/meta.json /usr/share/nginx/html/mainnet/meta.json
-COPY testnet/meta.json /usr/share/nginx/html/testnet/meta.json
-COPY mainnet/extended.json /usr/share/nginx/html/mainnet/extended.json
-COPY testnet/extended.json /usr/share/nginx/html/testnet/extended.json
+COPY metadata/mainnet/meta.json /usr/share/nginx/html/mainnet/meta.json
+COPY metadata/testnet/meta.json /usr/share/nginx/html/testnet/meta.json
+COPY metadata/mainnet/extended.json /usr/share/nginx/html/mainnet/extended.json
+COPY metadata/testnet/extended.json /usr/share/nginx/html/testnet/extended.json
 
 # Copy custom Nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf
